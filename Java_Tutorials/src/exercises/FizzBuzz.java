@@ -38,34 +38,7 @@ public class FizzBuzz {
 			}
 			
 		}
-		
-		System.out.println("");
-		System.out.println("BONUS : ONLY NON-PRIME NUMBERS");
-		for(int i = 1; i <= n; i++) {
-			if((i % 3 == 0) && (i % 5 == 0)) {
-				System.out.println("Fizzbuzz");
-			}
-			else if((i % 3 == 0)) {
-				System.out.println("Fizz : " + i);
-			}
-			
-			else if(i % 5 == 0) {
-				System.out.println("Buzz : " + i);
-			}
-			else {
-				int counter = 0;
-				for(int j = n; j >= i; j--) {
-					if((i % j == 0)) {
-						counter++;
-					}
-				}
-				if(counter == 2) {
-					System.out.println("This is a prime number : " + i);
-				}
-			}
-			
-		}
-		
+				
 		// END OF MAIN METHOD
 	}
 
